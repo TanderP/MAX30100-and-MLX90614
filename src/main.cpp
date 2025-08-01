@@ -3,8 +3,8 @@
 #include "MAX30100_PulseOximeter.h"
 #include <Adafruit_MLX90614.h>
 
-// this is to combine sensor MAX30100 and MLX90614 (GY 906)
-// the sensor only canwork when one of the .begin disabled and the i2c reestarted
+// this is to combine sensor MAX30100 and MLX90614 (GY 906) on the same I2C line
+// the sensor only canwork when one of the .begin disabled and the i2c restarted
 // so in this code the Sensor take turn to turn on
 
 PulseOximeter pox;
